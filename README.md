@@ -151,7 +151,7 @@ Create **ARCHITECTURE.md** with:
 - Any assumptions or trade-offs made
 
 ### 2. Scaling Considerations
-Answer these:
+Answer these (Note: "widgets" = dashboard components like PokemonList and PokemonDetails):
 - **10 widgets:** How would your architecture handle 10 widgets? What would need to change?
 - **100 widgets:** What breaks at 100 widgets? How would you redesign?
 - **Real-time data:** If widgets needed live updates (WebSocket), what changes?
