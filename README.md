@@ -19,33 +19,11 @@ A junior developer built a Pokémon Dashboard with 2 widgets using the [Pokémon
 
 ## 🤖 AI Tool Usage Policy
 
-**AI usage is valid and encouraged** for this challenge. We recognize that modern development often involves leveraging AI tools, and we want to understand how you use them effectively.
+**AI usage is allowed and expected** for this challenge. If you used AI tools, tell us how:
 
-**Required Documentation:**
-In your submission, please include a section (either in ANALYSIS.md or create AI_USAGE.md) that details:
-
-- **Which AI tools did you use?** (e.g., ChatGPT, Claude, GitHub Copilot, Cursor, etc.)
-- **How did you use them?** Be specific:
-  - Code generation vs. debugging vs. explanation vs. architecture advice
-  - What prompts or approaches worked well?
-  - What prompts or approaches didn't work?
-- **What value did they provide?** 
-  - Time saved on specific tasks
-  - Quality improvements
-  - Learning or understanding gained
-- **What did you do yourself?** 
-  - Critical thinking and decision-making
-  - Code review and validation
-  - Architectural choices
-
-**Attaching Your AI Prompts:**
-Please include your AI conversation history/prompts in one of these ways:
-- Export chat transcripts as text or markdown files (e.g., `ai-prompts/chatgpt-session-1.md`)
-- Take screenshots of key prompt exchanges and save them in an `ai-prompts/` folder
-- Copy-paste important prompts and responses into your AI_USAGE.md document
-- For GitHub Copilot: Document the contexts where you used it and example completions
-
-**Why we ask:** We're interested in understanding your AI collaboration skills - how you leverage these tools effectively while maintaining judgment and critical thinking. This is a valuable modern engineering skill, and seeing your actual prompts helps us understand your thought process.
+- Which AI tools you used
+- How you used them to accomplish the task
+- What worked well and what didn't
 
 ---
 
