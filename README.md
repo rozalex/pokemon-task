@@ -19,11 +19,13 @@ A junior developer built a Pokémon Dashboard with 2 widgets using the [Pokémon
 
 ## 🤖 AI Tool Usage Policy
 
-**AI usage is allowed and expected** for this challenge. If you used AI tools, tell us how:
+**AI usage is allowed and expected**. However, **a human reviews your work** - we need to see YOUR thinking, not just AI output.
 
-- Which AI tools you used
-- How you used them to accomplish the task
-- What worked well and what didn't
+**What we need to see:**
+- Your personal judgment and decision-making
+- Trade-off analysis in your own words
+- Which AI tools you used and how (if applicable)
+- Where you agreed/disagreed with AI suggestions
 
 ---
 
@@ -41,30 +43,8 @@ npm run dev
 
 The app will open at `http://localhost:5173`
 
-### Run Tests
-
-```bash
-npm test
-```
-
 ---
 
-## 📁 Project Structure
-
-```
-pokemon-dashboard-challenge/
-├── src/
-│   ├── components/
-│   │   ├── PokemonList.tsx       # Widget showing pokemon grid
-│   │   └── PokemonDetails.tsx    # Widget showing pokemon details
-│   ├── App.tsx                    # Main application component
-│   ├── main.tsx                   # Entry point
-│   └── index.css                  # Global styles
-├── ANALYSIS_TEMPLATE.md           # Template for your analysis
-└── package.json
-```
-
----
 
 ## 🔍 Part 1: Architectural Analysis
 
@@ -77,17 +57,7 @@ Identify **6-8 architectural/design issues**. For each:
 - **Description:** What's wrong and why
 - **Impact:** Real-world consequences (e.g., "causes unnecessary re-renders affecting mobile users")
 
-**Example format:**
-```markdown
-### Issue #1: Prop Drilling Hell
-- **Location:** App.tsx lines 15-45, all components
-- **Category:** Architecture, Maintainability
-- **Description:** State and callbacks passed through 3+ component levels
-- **Impact:** 
-  - Adding new features requires changing 5+ files
-  - Difficult to test components in isolation
-  - High coupling between unrelated components
-```
+
 
 ### 2. Prioritization Matrix
 Classify each issue:
@@ -175,6 +145,7 @@ pokemon-dashboard-refactored/
 ├── ANALYSIS.md          # Your issue analysis & prioritization
 ├── ARCHITECTURE.md      # Architecture decisions & scaling thoughts
 ├── CHANGES.md          # Summary of what you changed
+├── AI_USAGE.md         # Documentation of AI tool usage and decision-making
 ├── src/
 │   ├── [your refactored code]
 │   └── [your tests]
@@ -186,26 +157,10 @@ pokemon-dashboard-refactored/
 - Include a clear README.md with setup and run instructions
 - Ensure all dependencies are properly listed in package.json
 - Add a .gitignore file to exclude node_modules and build artifacts
+- **Document AI tool usage:** Include AI_USAGE.md explaining which AI tools you used, where you agreed/disagreed with suggestions, and demonstrating your personal judgment and decision-making process
 
 ---
 
-## 🎯 Evaluation Criteria
-
-We're evaluating:
-
-### ❌ NOT Primarily Evaluating:
-- Perfect code (we know time is limited)
-- Complete feature implementation
-- Fixing every issue identified
-
-### ✅ Primarily Evaluating:
-- **Judgment:** Did you identify the right problems? Prioritize correctly?
-- **Trade-offs:** Can you articulate pros/cons of different approaches?
-- **Communication:** Can you explain decisions clearly to technical and non-technical audiences?
-- **Pragmatism:** Do you balance ideal vs. practical given constraints?
-- **Experience:** Do you consider production concerns (monitoring, rollback, performance)?
-
----
 
 ## 📚 Resources
 
